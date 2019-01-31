@@ -1,0 +1,48 @@
+body{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background-color:#eeeeee;
+    text-align: center;
+}
+
+#simon {
+    text-align: center;
+}
+
+.pattern {
+    display: inline-block;
+    width : 100px;
+    height : 100px;
+    border : 1px solid black;
+}
+
+#gameboard {
+    margin-left: 32%;
+    width: 600px;
+}
+
+.gameButton {
+    height: 250px;
+    width: 250px;
+    float: left;
+    border: 10px solid black;
+}
+
+#green{
+    background-color: #66bb6a;
+    border-radius: 100% 0 0 0;
+}
+
+#red{
+    background-color:#d32f2f;
+    border-radius: 0 100% 0 0;
+}
+
+#blue{
+    background-color:#0d47a1;
+    border-radius: 0 0 0 100%;
+}
+
+#yellow{
+    background-color: #fdd835;
+    border-radius: 0 0 100% 0;
+}
